@@ -1,0 +1,693 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+   <header class="pb-6 bg-white lg:pb-0">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <!-- lg+ -->
+        <nav class="flex items-center justify-between h-16 lg:h-20">
+            <div class="flex-shrink-0">
+                <a href="#" title="" class="flex">
+                    <img class="w-auto h-8 lg:h-10" src="https://www.internee.pk/logo.png" alt="" />
+                </a>
+            </div>
+
+            <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
+                <!-- Menu open: "hidden", Menu closed: "block" -->
+                <svg class="block w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+                </svg>
+
+                <!-- Menu open: "block", Menu closed: "hidden" -->
+                <svg class="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+            <div class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
+                <a href="index.html" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Home</a>
+                <a href="/internship.html" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Internship </a>
+
+                <a href="graduate.html" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Graduate program </a>
+
+                <a href="student.html" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Student Ambassador </a>
+            </div>
+
+            <a href="singin.html" title="" class="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> SING IN </a>
+        </nav>
+
+        <!-- xs to lg -->
+        <nav class="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
+            <div class="flow-root">
+                <div class="flex flex-col px-6 -my-2 space-y-1">
+                    <a href="#" title="" class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Features </a>
+
+                    <a href="#" title="" class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Solutions </a>
+
+                    <a href="#" title="" class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Resources </a>
+
+                    <a href="#" title="" class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Pricing </a>
+                </div>
+            </div>
+
+            <div class="px-6 mt-6">
+                <a href="#" title="" class="inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md tems-center hover:bg-blue-700 focus:bg-blue-700" role="button"> Get started now </a>
+            </div>
+        </nav>
+    </div>
+</header>
+    <section class="relative py-12 sm:py-16 lg:pb-40">
+  <div class="absolute bottom-0 right-0 overflow-hidden">
+    <img class="w-full h-auto origin-bottom-right transform scale-150 lg:w-auto lg:mx-auto lg:object-cover lg:scale-90" 
+         src="https://www.internee.pk/_next/image?url=%2Finternee-pics%2FGroup%207.png&w=750&q=75" alt="" />
+  </div>
+
+  <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-y-4 lg:items-center lg:grid-cols-2 xl:grid-cols-2">
+      <div class="text-center xl:col-span-1 lg:text-left md:px-16 lg:px-0 xl:pr-20">
+        <h1 class="text-4xl font-bold leading-tight text-gray-900 sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight font-pj">
+          Looking for dream internship?
+        </h1>
+        <p class="mt-2 text-lg text-gray-600 sm:mt-6 font-inter">
+          Internee.pk kickstart student's tech careers with first internships, providing industry exposure, practical skills, and networking opportunities..
+        </p>
+
+        <div class="flex flex-col items-center justify-center gap-4 mt-8 sm:flex-row sm:justify-start sm:mt-10">
+          <a href="ourjobportal.html" 
+             class="inline-flex px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border border-transparent rounded font-pj hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+             Our Job Portal
+          </a>
+          <a href="singin2.html" 
+             class="inline-flex px-8 py-4 text-lg font-bold text-gray-900 transition-all duration-200 bg-white border border-gray-300 rounded font-pj hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300">
+             Sign In
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Opportunities</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+  <div class="max-w-7xl mx-auto px-6 py-12">
+    <h1 class="text-4xl font-bold text-center mb-10">Internship Opportunities</h1>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Card -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+        <img src="graphic desing.jpg" alt="Graphic Design" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h2 class="text-lg font-semibold mb-2">Graphic Design</h2>
+          <a href="#" class="text-green-600 hover:text-green-700 flex items-center gap-2 font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+            Apply Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Chatbot Development -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+        <img src="chatboat dev.jpg" alt="Chatbot Development" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h2 class="text-lg font-semibold mb-2">Chatbot Development</h2>
+          <a href="#" class="text-green-600 hover:text-green-700 flex items-center gap-2 font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+            Apply Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Other Internships -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+        <img src="ml.jpg" alt="Machine Learning" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h2 class="text-lg font-semibold mb-2">Other Internships</h2>
+          <a href="#" class="text-green-600 hover:text-green-700 flex items-center gap-2 font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+            Apply Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Frontend Internship -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+        <img src="senior-front-end-dev.webp" alt="Frontend Internship" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h2 class="text-lg font-semibold mb-2">Frontend Internship</h2>
+          <a href="#" class="text-green-600 hover:text-green-700 flex items-center gap-2 font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+            Apply Now
+          </a>
+        </div>
+      </div>
+
+      <!-- App Development -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+        <img src="app dev.jpg" alt="App Development" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h2 class="text-lg font-semibold mb-2">App Development</h2>
+          <a href="#" class="text-green-600 hover:text-green-700 flex items-center gap-2 font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+            Apply Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Backend Development -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+        <img src="back end.jpg" alt="Backend Development" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h2 class="text-lg font-semibold mb-2">Backend Development</h2>
+          <a href="#" class="text-green-600 hover:text-green-700 flex items-center gap-2 font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+            Apply Now
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
+
+
+   <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Task Management Platform</h2>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Real-World Skills with Our Task Portal at internee.pk</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">ransform theoretical knowledge into practical expertise through our comprehensive task portal. Build, learn, and grow with industry-standard projects from our virtual internships on internee.pk.</p>
+    </div>
+    <div class="flex flex-wrap">
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Hands-on Industry Projects with internee.pk</h2>
+        <p class="leading-relaxed text-base mb-4">Gain practical experience through real-world projects that simulate actual industry scenarios. Each task is carefully designed to enhance your professional portfolio through our virtual internships.</p>
+        <a class="text-indigo-500 inline-flex items-center">Project-based learning <br><br> Industry-standard practices<br><br> Portfolio building<br>
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Skill Verification System by internee.pk</h2>
+        <p class="leading-relaxed text-base mb-4">Each completed task adds to your verified skills portfolio. Showcase your capabilities with confidence through our virtual internships and comprehensive tracking system.</p>
+        <a class="text-indigo-500 inline-flex items-center"> Skill verification<br><br>Progress tracking<br><br>Achievement badges<br><br>
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">SDLC Implementation via internee.pk</h2>
+        <p class="leading-relaxed text-base mb-4">Experience the complete Software Development Life Cycle through structured tasks and milestones, part of our virtual internship offerings.</p>
+        <a class="text-indigo-500 inline-flex items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Guided Learning Path at internee.pk</h2>
+        <p class="leading-relaxed text-base mb-4">Follow a structured learning path designed for both beginners and advanced learners as part of our virtual internship curriculum.</p>
+        <a class="text-indigo-500 inline-flex items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+  </div>
+</section>                 
+<section class="text-gray-600 body-font overflow-hidden">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Launch Your Career with Internee.pk</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Pakistan's innovative platform for career growth and professional development. Join our virtual internships to gain practical experience and kickstart your professional journey.</p>
+      <div class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
+ 
+      </div>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">START</h2>
+          <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Vexillologist pitchfork
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Tumeric plaid portland
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mixtape chillwave tumeric
+          </p>
+          <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+        </div>
+      </div>
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+          <span class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PRO</h2>
+          <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+            <span>$38</span>
+            <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Vexillologist pitchfork
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Tumeric plaid portland
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Hexagon neutra unicorn
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mixtape chillwave tumeric
+          </p>
+          <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Button
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+        </div>
+      </div>
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">BUSINESS</h2>
+          <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+            <span>$56</span>
+            <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Vexillologist pitchfork
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Tumeric plaid portland
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Hexagon neutra unicorn
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Vexillologist pitchfork
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mixtape chillwave tumeric
+          </p>
+          <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+        </div>
+      </div>
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">SPECIAL</h2>
+          <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+            <span>$72</span>
+            <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Vexillologist pitchfork
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Tumeric plaid portland
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Hexagon neutra unicorn
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Vexillologist pitchfork
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mixtape chillwave tumeric
+          </p>
+          <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Mock Interview Platform - Internee.pk</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- Header Section -->
+  <section class="relative overflow-hidden py-20 px-8 lg:px-24">
+    <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between">
+      
+      <!-- Left Side Content -->
+      <div class="lg:w-1/2 space-y-6">
+        <div class="flex items-center space-x-2">
+          <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">
+            AI Mock Interviews
+          </span>
+        </div>
+
+        <h1 class="text-4xl lg:text-5xl font-bold leading-tight">
+          AI Mock Interview Platform for Virtual Internships in Pakistan
+        </h1>
+
+        <p class="text-lg text-gray-600">
+          Prepare for <span class="font-semibold text-gray-800">technical, marketing, or business interviews</span> 
+          with our AI-powered mock interview system. Join 
+          <span class="font-semibold text-green-600">Internee.pk’s virtual internship program</span> 
+          to get unlimited access, real-time feedback, and role-specific practice.
+        </p>
+
+        <a href="#" class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg">
+          Apply Now for Virtual Internship
+        </a>
+      </div>
+
+      <!-- Right Side Image -->
+      <div class="lg:w-1/2 mt-10 lg:mt-0">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" 
+             alt="Laptop Mock Interview" class="rounded-lg shadow-md">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="bg-gray-50 py-16 px-8 lg:px-24">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Card 1 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border">
+        <h3 class="font-semibold text-lg mb-2 text-gray-800">Realistic AI Interview Simulations</h3>
+        <p class="text-gray-600 text-sm">
+          Simulate real interview environments powered by AI. Perfect for students seeking 
+          <span class="font-medium text-gray-800">online internship interview practice</span> or job readiness.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border">
+        <h3 class="font-semibold text-lg mb-2 text-gray-800">Smart Feedback with AI</h3>
+        <p class="text-gray-600 text-sm">
+          Instantly analyze your answers, tone, and relevance. Improve every time with feedback 
+          tailored for <span class="font-medium text-gray-800">virtual internship candidates</span>.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border">
+        <h3 class="font-semibold text-lg mb-2 text-gray-800">Role-Based Mock Interviews</h3>
+        <p class="text-gray-600 text-sm">
+          Practice interviews for <span class="font-medium text-gray-800">software engineering, product management, business,</span> 
+          and <span class="font-medium text-gray-800">digital marketing</span> roles in our internee.pk platform.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Features -->
+  <section class="py-16 px-8 lg:px-24">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      
+      <div class="bg-green-50 p-6 rounded-xl border border-green-100">
+        <h3 class="font-semibold text-lg mb-2 text-green-700">Build Real Interview Confidence</h3>
+        <p class="text-gray-600 text-sm">
+          Reduce anxiety and increase success rate through repeated AI-based mock interview sessions.
+        </p>
+      </div>
+
+      <div class="bg-green-50 p-6 rounded-xl border border-green-100">
+        <h3 class="font-semibold text-lg mb-2 text-green-700">Become Job-Ready Fast</h3>
+        <p class="text-gray-600 text-sm">
+          Structured interview training prepares you for real-world scenarios. 
+          Perfect for <span class="font-medium text-gray-800">students applying for internships</span>.
+        </p>
+      </div>
+
+      <div class="bg-green-50 p-6 rounded-xl border border-green-100">
+        <h3 class="font-semibold text-lg mb-2 text-green-700">Track Progress with Reports</h3>
+        <p class="text-gray-600 text-sm">
+          Access detailed performance reports you can share with mentors and hiring managers.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
+
+<!-- How It Works Section -->
+<section class="bg-white text-gray-800 body-font">
+  <div class="container px-5 py-20 mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">How It Works</h2>
+      <p class="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto">
+        Get started with Internee.pk’s AI Mock Interview Program in just a few simple steps.
+      </p>
+    </div>
+
+    <div class="flex flex-wrap w-full">
+      <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6 mx-auto">
+
+        <!-- Step 1 -->
+        <div class="flex relative pb-12">
+          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div class="h-full w-1 bg-green-200 pointer-events-none"></div>
+          </div>
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-600 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div class="flex-grow pl-4">
+            <h2 class="font-semibold title-font text-sm text-green-700 mb-1 tracking-wider">STEP 1</h2>
+            <p class="leading-relaxed text-gray-700">
+              <span class="font-medium text-gray-900">Sign Up & Choose a Domain</span><br><br>
+              Explore a wide range of internships tailored to your interests and skills.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="flex relative pb-12">
+          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div class="h-full w-1 bg-green-200 pointer-events-none"></div>
+          </div>
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-600 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow pl-4">
+            <h2 class="font-semibold title-font text-sm text-green-700 mb-1 tracking-wider">STEP 2</h2>
+            <p class="leading-relaxed text-gray-700">
+              <span class="font-medium text-gray-900">Fill Out the Form</span><br><br>
+              Complete a short application form to secure your internship and start your learning journey.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="flex relative pb-12">
+          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div class="h-full w-1 bg-green-200 pointer-events-none"></div>
+          </div>
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-600 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <circle cx="12" cy="5" r="3"></circle>
+              <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+            </svg>
+          </div>
+          <div class="flex-grow pl-4">
+            <h2 class="font-semibold title-font text-sm text-green-700 mb-1 tracking-wider">STEP 3</h2>
+            <p class="leading-relaxed text-gray-700">
+              <span class="font-medium text-gray-900">Practice with AI Interviews</span><br><br>
+              Access AI-driven mock interviews and receive smart feedback tailored to your chosen role.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="flex relative">
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-600 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow pl-4">
+            <h2 class="font-semibold title-font text-sm text-green-700 mb-1 tracking-wider">STEP 4</h2>
+            <p class="leading-relaxed text-gray-700">
+              <span class="font-medium text-gray-900">Earn Your Certificate</span><br><br>
+              Complete your internship, gain valuable hands-on experience, and earn a verified certificate.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-white text-gray-900">
+    <!-- your existing header, sections, etc. -->
+
+    <!-- make sure all your content stays INSIDE this body tag -->
+    
+    <!-- keep your stats section INSIDE the same body -->
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -m-4 text-center">
+          <div class="p-4 sm:w-1/4 w-1/2">
+            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">2.7K</h2>
+            <p class="leading-relaxed">Users</p>
+          </div>
+          <div class="p-4 sm:w-1/4 w-1/2">
+            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.8K</h2>
+            <p class="leading-relaxed">Subscribes</p>
+          </div>
+          <div class="p-4 sm:w-1/4 w-1/2">
+            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">35</h2>
+            <p class="leading-relaxed">Downloads</p>
+          </div>
+          <div class="p-4 sm:w-1/4 w-1/2">
+            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">4</h2>
+            <p class="leading-relaxed">Products</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
